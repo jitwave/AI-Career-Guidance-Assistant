@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Career Guidance Assistant | Data Alcott Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo-icon">🤖</div>
+        <div class="brand-info">
+          <h1>AI Career Guidance Assistant</h1>
+          <p class="subtitle">NLP & Conversational AI Career Counseling System</p>
+        </div>
+      </div>
+      <div class="meta-badge">
+        <div class="student-pill">
+          <span class="dot"></span>
+          <span class="student-name">Sarbajit Das</span>
+          <span class="student-code">DAS013423</span>
+        </div>
+        <div class="task-pill">Task AI-SS-005 · Data Alcott Systems</div>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" data-tab="chat-view">
+        <span class="icon">💬</span> AI Career Counselor
+      </button>
+      <button class="tab-btn" data-tab="explorer-view">
+        <span class="icon">💼</span> Career Explorer (13 Tracks)
+      </button>
+      <button class="tab-btn" data-tab="recommender-view">
+        <span class="icon">🎯</span> Skill Matcher & Gap Analysis
+      </button>
+      <button class="tab-btn" data-tab="trends-view">
+        <span class="icon">📈</span> Market Trends & Salaries
+      </button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="content-container">
+
+      <!-- TAB 1: Chat View -->
+      <section id="chat-view" class="tab-content active">
+        <div class="chat-wrapper">
+          <div class="chat-header">
+            <div class="bot-status">
+              <span class="status-indicator"></span>
+              <div>
+                <strong>Career AI Counselor</strong>
+                <span class="model-badge">NLP Hybrid Model Active</span>
+              </div>
+            </div>
+            <button id="clearChatBtn" class="secondary-btn" title="Clear conversation">
+              🔄 Reset Chat
+            </button>
+          </div>
+
+          <!-- Chat messages scroll box -->
+          <div id="chatMessages" class="chat-messages">
+            <div class="message bot-message">
+              <div class="avatar">🤖</div>
+              <div class="bubble">
+                <p><strong>Hello! Welcome to the AI Career Guidance Assistant!</strong> 🎓</p>
+                <p>I am your specialized AI career mentor designed for <strong>Data Alcott Systems</strong>. I can help you:</p>
+                <ul>
+                  <li>🔍 <strong>Explore 13+ Career Paths</strong> across tech, data, AI, cloud, and security.</li>
+                  <li>🎯 <strong>Get Personalized Career Recommendations</strong> based on your skills & interests.</li>
+                  <li>💰 <strong>Check Detailed Salaries</strong> (Entry, Mid, Senior brackets in LPA & USD).</li>
+                  <li>📝 <strong>Prepare for Interviews</strong> with real technical questions and strategies.</li>
+                  <li>🗺️ <strong>Generate 4-Phase Learning Roadmaps</strong> to master any domain.</li>
+                </ul>
+                <p>How can I help you take the next step in your career journey?</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Suggestion Chips -->
+          <div class="quick-chips">
+            <span class="chip" data-query="Tell me about AI/ML Engineer">🤖 AI/ML Engineer</span>
+            <span class="chip" data-query="Recommend careers for Python, SQL, and Machine Learning">🎯 Match: Python & SQL</span>
+            <span class="chip" data-query="What is the salary of a DevOps Engineer?">💰 DevOps Salary</span>
+            <span class="chip" data-query="Interview questions for Data Scientist">📝 Data Science Interview</span>
+            <span class="chip" data-query="What are the latest tech trends in 2026?">📈 2026 Market Trends</span>
+            <span class="chip" data-query="Learning roadmap for Cyber Security Engineer">🗺️ Cyber Security Roadmap</span>
+          </div>
+
+          <!-- Chat Input -->
+          <div class="chat-input-bar">
+            <input type="text" id="userInput" placeholder="Ask any career question or enter your skills (e.g. 'What skills do I need for Cloud Architect?')..." autocomplete="off">
+            <button id="sendBtn" class="primary-btn">
+              <span>Send</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: Career Explorer View -->
+      <section id="explorer-view" class="tab-content">
+        <div class="explorer-header">
+          <div>
+            <h2>Explore Tech & Management Careers</h2>
+            <p>Comprehensive knowledge base covering role descriptions, compensation, skill stacks, and progression.</p>
+          </div>
+          <div class="explorer-controls">
+            <input type="text" id="careerSearchInput" placeholder="🔍 Search careers or skills...">
+            <select id="categoryFilter">
+              <option value="all">All Domains</option>
+              <option value="Artificial Intelligence & Data Science">AI & Data Science</option>
+              <option value="Software Engineering">Software Engineering</option>
+              <option value="Web Development">Web Development</option>
+              <option value="Cloud & Infrastructure">Cloud & DevOps</option>
+              <option value="Cybersecurity & Information Security">Cybersecurity</option>
+              <option value="Product & Strategy">Product Management</option>
+              <option value="Design & User Experience">UI/UX Design</option>
+              <option value="Emerging Tech">Emerging Tech & IoT</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="careersGrid" class="careers-grid">
+          <!-- Populated dynamically by JS -->
+          <div class="loading-spinner">Loading careers catalog...</div>
+        </div>
+      </section>
+
+      <!-- TAB 3: Skill Matcher & Recommendation -->
+      <section id="recommender-view" class="tab-content">
+        <div class="recommender-container">
+          <div class="recommender-form card">
+            <h2>🎯 Profile-Based Career Matcher</h2>
+            <p class="section-desc">Select or type your skills and interests to calculate mathematical fit scores and uncover your skill gaps.</p>
+            
+            <div class="form-group">
+              <label>Select Your Known Skills:</label>
+              <div class="skill-pills-selector" id="popularSkillsContainer">
+                <!-- Preset pills populated by JS -->
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="customSkillsInput">Add More Skills (Comma-separated):</label>
+              <input type="text" id="customSkillsInput" placeholder="e.g. FastAPI, Tailwind, PyTorch, GraphQL">
+            </div>
+
+            <div class="form-group">
+              <label for="interestsInput">Areas of Interest / Passions:</label>
+              <textarea id="interestsInput" rows="3" placeholder="e.g. I enjoy working on deep learning models, automation, predictive analytics, and deploying intelligent systems."></textarea>
+            </div>
+
+            <button id="calculateRecsBtn" class="primary-btn btn-large">
+              <span>🚀 Match My Profile & Identify Skill Gaps</span>
+            </button>
+          </div>
+
+          <div class="recommender-results">
+            <h3>Recommended Career Paths & Skill Gap Analysis</h3>
+            <div id="recsOutput" class="recs-output">
+              <div class="empty-state">
+                <span class="icon">🎯</span>
+                <p>Select your skills and click <strong>'Match My Profile'</strong> to see your top career matches with personalized skill gap breakdowns!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: Market Trends & Salary Insights -->
+      <section id="trends-view" class="tab-content">
+        <div class="trends-container">
+          <div class="trends-hero card">
+            <div class="trends-badge">2025 - 2027 Tech Landscape</div>
+            <h2>Global Tech Hiring & Compensation Report</h2>
+            <p id="trendsOverviewText" class="trends-overview">Loading market intelligence...</p>
+          </div>
+
+          <div class="stats-row">
+            <div class="stat-card">
+              <span class="stat-number">34% CAGR</span>
+              <span class="stat-label">AI & Generative AI Velocity</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">₹8-16 LPA</span>
+              <span class="stat-label">Top Entry-Level Tech Packages</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">54% Hybrid</span>
+              <span class="stat-label">Workplace Model Preference</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">33% YoY</span>
+              <span class="stat-label">Cybersecurity Talent Demand Surge</span>
+            </div>
+          </div>
+
+          <div class="trends-columns">
+            <div class="card trends-column">
+              <h3>🚀 High-Growth Tech Domains</h3>
+              <div id="trendsList" class="trends-list">
+                <!-- Populated dynamically -->
+              </div>
+            </div>
+            <div class="card trends-column">
+              <h3>🔮 Market Forecasts & Strategic Advice</h3>
+              <ul id="marketPredictionsList" class="predictions-list">
+                <!-- Populated dynamically -->
+              </ul>
+
+              <h3 style="margin-top: 1.5rem;">💰 Top Starting Packages (2026)</h3>
+              <ul id="salarySummaryList" class="predictions-list">
+                <!-- Populated dynamically -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Career Deep Dive Modal -->
+    <div id="careerModal" class="modal">
+      <div class="modal-content card">
+        <button id="closeModalBtn" class="modal-close">&times;</button>
+        <div id="modalBody">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Data Alcott Systems Internship Task <strong>AI-SS-005</strong> · Student: <strong>Sarbajit Das (DAS013423)</strong> · Powered by NLP & Conversational AI</p>
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

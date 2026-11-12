@@ -1,0 +1,211 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey there",
+        "hi assistant",
+        "hello career guide",
+        "is anyone there",
+        "start"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI Career Guidance Assistant. I'm here to help you navigate tech careers, evaluate your skill gaps, explore salaries, and plan your career roadmap. How can I assist you today?",
+        "Hi there! Welcome! Whether you want to explore career paths, check salaries, find interview tips, or get personalized recommendations based on your skills, I am ready to guide you. What field are you curious about?",
+        "Greetings! I am your AI Career Counselor. Tell me about your skills and interests, or ask about any tech career to get started!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "exit",
+        "quit",
+        "have a good day",
+        "bye for now",
+        "talk to you later"
+      ],
+      "responses": [
+        "Thank you for using the AI Career Guidance Assistant! Best of luck on your career and learning journey. Feel free to return anytime!",
+        "Goodbye! Keep upskilling and building exciting projects. Remember, consistency is the key to a rewarding career!",
+        "Take care! Wishing you tremendous success in your professional aspirations. See you soon!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "how does this work",
+        "features",
+        "what should I ask",
+        "commands",
+        "guide me",
+        "show menu"
+      ],
+      "responses": [
+        "Here is what I can do for you:\n1. 💼 **Explore Careers**: Ask 'Tell me about Data Scientist' or 'List all careers'\n2. 🎯 **Personalized Recommendations**: Type 'Recommend a career for Python, SQL, and Machine Learning'\n3. 💰 **Salary Insights**: Ask 'What is the salary of a DevOps Engineer?'\n4. 📈 **Industry Trends**: Ask 'What are the current tech industry trends?'\n5. 📝 **Interview Preparation**: Ask 'Interview questions for AI/ML Engineer'\n6. 🏢 **Top Hiring Companies**: Ask 'Top companies hiring Full Stack Developers'\n7. 🗺️ **Learning Roadmap**: Ask 'Learning roadmap for Cloud Architect'"
+      ]
+    },
+    {
+      "tag": "career_paths",
+      "patterns": [
+        "what career paths are available",
+        "list all careers",
+        "explore careers",
+        "show available jobs",
+        "career options",
+        "what professions can I choose",
+        "tell me about careers",
+        "career tracks"
+      ],
+      "responses": [
+        "I cover 12+ premier modern career domains across tech and management:\n• 🤖 AI/ML Engineer\n• 📊 Data Scientist\n• 📈 Data Analyst\n• 💻 Software Engineer\n• 🌐 Full Stack Developer\n• ⚙️ DevOps & Cloud Engineer\n• 🛡️ Cyber Security Engineer\n• ☁️ Cloud Solutions Architect\n• 🚀 Product Manager\n• 📱 Mobile Application Developer\n• 🎨 UI/UX Designer\n• ⛓️ Blockchain Developer\n• 🔌 Embedded Systems & IoT Engineer\n\nAsk me about any specific role (e.g., 'Tell me about Data Scientist') for full details!"
+      ]
+    },
+    {
+      "tag": "skill_analysis",
+      "patterns": [
+        "what skills are needed for",
+        "required skills for",
+        "prerequisites for",
+        "what do I need to know to become",
+        "skill requirements",
+        "tech stack for",
+        "what tools do I need for"
+      ],
+      "responses": [
+        "To tell you the exact skills, specify the career role you're interested in (e.g., 'Skills required for AI/ML Engineer' or 'Tech stack for Full Stack Developer'). You can also share your current skills to see how well they align!"
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "recommend a career",
+        "what career is best for me",
+        "suggest a job path",
+        "which career should I choose",
+        "match my profile",
+        "based on my skills what should I do",
+        "career guidance for me",
+        "find my career match"
+      ],
+      "responses": [
+        "I'd love to give you a personalized recommendation! Please tell me your technical skills and areas of interest (for example: 'I know Python, SQL, and love working with statistics and predictions')."
+      ]
+    },
+    {
+      "tag": "salary_inquiry",
+      "patterns": [
+        "salary",
+        "how much does it pay",
+        "salary range",
+        "average pay",
+        "compensation for",
+        "what is the package of",
+        "highest paying tech jobs",
+        "earn in tech"
+      ],
+      "responses": [
+        "Tech salaries vary based on experience, location, and specialization. Which career role's compensation would you like to review? (e.g., 'Salary of Cyber Security Engineer' or 'Data Scientist salary')."
+      ]
+    },
+    {
+      "tag": "industry_trends",
+      "patterns": [
+        "industry trends",
+        "market trends",
+        "what is trending in tech",
+        "future of jobs",
+        "growing careers",
+        "market demand in 2026",
+        "hiring outlook",
+        "fastest growing jobs"
+      ],
+      "responses": [
+        "The fastest growing domains today are driven by Generative AI, Cloud Resilience, and Cyber Defense. Ask me for 'Industry trends' to see our detailed 2025-2027 market demand analysis!"
+      ]
+    },
+    {
+      "tag": "interview_prep",
+      "patterns": [
+        "interview tips",
+        "interview questions",
+        "how to prepare for interview",
+        "technical interview questions",
+        "crack the interview for",
+        "questions asked in interview"
+      ],
+      "responses": [
+        "Interview preparation includes mastering technical fundamentals, system design/architecture, and live problem-solving. Name any career (e.g. 'Interview tips for DevOps Engineer') and I'll provide top questions and strategic advice!"
+      ]
+    },
+    {
+      "tag": "company_research",
+      "patterns": [
+        "top companies",
+        "who is hiring",
+        "top recruiters for",
+        "companies hiring for",
+        "where should I apply for",
+        "best companies for"
+      ],
+      "responses": [
+        "Leading tech giants, hyper-growth startups, and consulting firms are aggressively recruiting skilled engineers. Tell me which career you'd like company insights for!"
+      ]
+    },
+    {
+      "tag": "learning_roadmap",
+      "patterns": [
+        "learning roadmap",
+        "roadmap for",
+        "how to become a",
+        "study plan for",
+        "learning path for",
+        "where to start learning"
+      ],
+      "responses": [
+        "A structured step-by-step roadmap accelerates your career journey. Specify the career path (e.g., 'Roadmap for Data Analyst' or 'How to become an AI Engineer') to see a phased 4-stage learning plan!"
+      ]
+    },
+    {
+      "tag": "set_profile",
+      "patterns": [
+        "my skills are",
+        "i know python and sql",
+        "i have experience in",
+        "my background is",
+        "i am interested in",
+        "my profile is",
+        "i can code in"
+      ],
+      "responses": [
+        "Noted! Analyzing your skillset and interests against our career repository to find your top matches..."
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "appreciate your help",
+        "awesome thank you",
+        "thank you so much"
+      ],
+      "responses": [
+        "You're very welcome! Always happy to assist your career ambitions. Do you have any other questions?",
+        "Glad I could help! Remember to practice consistently and keep building. Let me know if you need anything else!",
+        "Anytime! Wishing you the best on your professional path."
+      ]
+    }
+  ]
+}

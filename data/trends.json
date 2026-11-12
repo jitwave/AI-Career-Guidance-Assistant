@@ -1,0 +1,69 @@
+{
+  "report_year": "2026",
+  "overview": "The tech hiring landscape is experiencing a paradigm shift driven by Enterprise Generative AI, Cloud Resilience, Zero-Trust Cybersecurity, and Edge Computing. Companies are prioritizing specialized problem solvers who combine strong algorithmic foundations with real-world engineering and domain expertise.",
+  "top_trends": [
+    {
+      "rank": 1,
+      "domain": "Artificial Intelligence & Generative AI",
+      "growth_rate": "34% CAGR",
+      "demand_index": "Very High",
+      "key_drivers": "Enterprise LLMs, autonomous agentic workflows, multi-modal systems, and AI-driven automation across healthcare and finance.",
+      "high_demand_skills": ["PyTorch", "Hugging Face", "RAG (Retrieval-Augmented Generation)", "Fine-Tuning", "Vector Databases", "MLOps", "Model Quantization"]
+    },
+    {
+      "rank": 2,
+      "domain": "Cloud Infrastructure & Platform Engineering",
+      "growth_rate": "27% CAGR",
+      "demand_index": "Very High",
+      "key_drivers": "Migration of mission-critical workloads, multi-cloud redundancy, serverless architectures, and Kubernetes-first application ecosystems.",
+      "high_demand_skills": ["AWS", "Azure", "GCP", "Kubernetes", "Terraform", "CI/CD Automation", "Site Reliability Engineering (SRE)", "FinOps"]
+    },
+    {
+      "rank": 3,
+      "domain": "Cybersecurity & Zero-Trust Defense",
+      "growth_rate": "31% CAGR",
+      "demand_index": "Extremely High",
+      "key_drivers": "Escalating ransomware threats, nation-state cyberattacks, stringent data sovereignty regulations, and AI-powered threat detection.",
+      "high_demand_skills": ["Threat Intelligence", "Penetration Testing", "Cloud Security", "OWASP Security", "Zero Trust Architecture", "SIEM (Splunk)", "Cryptography"]
+    },
+    {
+      "rank": 4,
+      "domain": "Data Engineering & Real-Time Analytics",
+      "growth_rate": "25% CAGR",
+      "demand_index": "High",
+      "key_drivers": "Shift from batch processing to streaming event analytics, lakehouse architectures, and real-time business decision automation.",
+      "high_demand_skills": ["Apache Spark", "Kafka", "SQL", "dbt", "Snowflake", "BigQuery", "Data Modeling", "Python"]
+    },
+    {
+      "rank": 5,
+      "domain": "Full-Stack & Modern Web Architecture",
+      "growth_rate": "21% CAGR",
+      "demand_index": "High",
+      "key_drivers": "Need for ultra-responsive web apps, server-side rendering, API-first microservices, and modern headless architectures.",
+      "high_demand_skills": ["TypeScript", "React", "Next.js", "Node.js", "PostgreSQL", "Docker", "GraphQL", "Tailwind CSS"]
+    },
+    {
+      "rank": 6,
+      "domain": "Connected Hardware & Edge AI (IoT)",
+      "growth_rate": "22% CAGR",
+      "demand_index": "High",
+      "key_drivers": "Electric Vehicles (EV), smart industrial robotics, biomedical wearable telemetry, and smart energy grids.",
+      "high_demand_skills": ["Embedded C/C++", "RTOS", "TinyML", "ESP32", "MQTT", "Low-Power Optimization", "BLE"]
+    }
+  ],
+  "market_predictions": [
+    "Over 75% of enterprise software applications will incorporate embedded AI/agentic assistants by end of 2026.",
+    "Cross-disciplinary talent (e.g. Software Engineers who understand MLOps, or Data Scientists with strong software engineering) will command a 30-40% compensation premium.",
+    "Cybersecurity talent shortage remains critical globally, creating continuous entry-level and lateral hiring opportunities.",
+    "Hands-on portfolio projects and demonstrable system-design capabilities outrank static academic certifications in modern recruitment evaluations."
+  ],
+  "salary_insights_summary": {
+    "highest_starting_packages": ["AI/ML Engineer (₹8-14 LPA)", "Product Manager (₹8-16 LPA)", "Data Scientist (₹7-13 LPA)", "Blockchain Developer (₹7-14 LPA)"],
+    "highest_growth_velocity": ["Cyber Security (+33% YoY)", "AI/ML Engineering (+32% YoY)", "DevOps & Cloud (+27% YoY)"],
+    "work_mode_distribution": {
+      "hybrid": "54%",
+      "remote": "26%",
+      "on_site": "20%"
+    }
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "AI/ML Engineer": {
+    "title": "AI/ML Engineer",
+    "category": "Artificial Intelligence & Data Science",
+    "description": "Designs, develops, and deploys scalable machine learning models and deep learning architectures to solve complex real-world predictive and generative problems.",
+    "core_skills": ["Python", "Machine Learning", "Deep Learning", "Mathematics", "Statistics", "Data Structures", "Model Deployment"],
+    "tools_and_technologies": ["TensorFlow", "PyTorch", "Scikit-Learn", "Hugging Face", "MLflow", "Docker", "FastAPI", "ONNX", "Kubernetes"],
+    "salary_range": {
+      "entry": "₹8 - 14 LPA ($80,000 - $110,000)",
+      "mid": "₹15 - 28 LPA ($115,000 - $160,000)",
+      "senior": "₹30 - 55+ LPA ($165,000 - $230,000+)"
+    },
+    "demand_level": "Very High",
+    "growth_rate": "32% Yearly",
+    "top_industries": ["Technology", "Healthcare", "Automotive (Autonomous Driving)", "Finance & FinTech", "E-Commerce"],
+    "top_hiring_companies": ["Google", "Microsoft", "NVIDIA", "Amazon", "OpenAI", "Meta", "Adobe", "Data Alcott Systems"],
+    "career_progression": [
+      "Junior ML Engineer / AI Associate",
+      "Machine Learning Engineer",
+      "Senior ML Engineer / Lead AI Engineer",
+      "Staff AI Scientist / Head of AI"
+    ],
+    "interview_tips": [
+      "Master mathematical intuition behind algorithms (gradient descent, loss functions, backpropagation).",
+      "Be prepared to code ML algorithms from scratch and explain bias-variance trade-offs.",
+      "Practice system design for ML (data ingestion, feature store, latency constraints, model monitoring)."
+    ],
+    "interview_questions": [
+      "Explain the difference between L1 (Lasso) and L2 (Ridge) regularization and when to use which.",
+      "How do Transformer attention mechanisms differ from traditional RNNs and LSTMs?",
+      "How would you address severe class imbalance in a fraud detection dataset?",
+      "Explain vanishing and exploding gradients and how modern architectures mitigate them."
+    ],
+    "learning_roadmap": [
+      "Phase 1 (Foundations): Linear Algebra, Multivariable Calculus, Probability, Advanced Python, OOP, NumPy, Pandas.",
+      "Phase 2 (Classical ML): Regression, Decision Trees, Ensembles (XGBoost/LightGBM), Scikit-learn, Feature Engineering.",
+      "Phase 3 (Deep Learning & NLP/CV): Neural Networks, CNNs, Transformers, PyTorch/TensorFlow, Fine-tuning LLMs.",
+      "Phase 4 (Production & MLOps): Model Serving (FastAPI/Triton), Docker, CI/CD for ML, Drift Detection, MLflow."
+    ]
+  },
+  "Data Scientist": {
+    "title": "Data Scientist",
+    "category": "Data Science & Analytics",
+    "description": "Extracts actionable insights from structured and unstructured data using exploratory analysis, statistical hypothesis testing, and predictive modeling.",
+    "core_skills": ["Python", "R", "SQL", "Applied Statistics", "Data Wrangling", "Machine Learning", "Data Storytelling"],
+    "tools_and_technologies": ["Pandas", "NumPy", "Scikit-Learn", "Jupyter", "Tableau", "Power BI", "Spark", "Airflow", "PostgreSQL"],
+    "salary_range": {
+      "entry": "₹7 - 13 LPA ($75,000 - $105,000)",
+      "mid": "₹14 - 26 LPA ($110,000 - $155,000)",
+      "senior": "₹28 - 50+ LPA ($160,000 - $220,000+)"
+    },
+    "demand_level": "Very High",
+    "growth_rate": "28% Yearly",
+    "top_industries": ["FinTech & Banking", "Healthcare & Pharma", "E-Commerce & Retail", "Consulting", "Telecommunications"],
+    "top_hiring_companies": ["Amazon", "Flipkart", "JPMorgan Chase", "McKinsey & Co", "Accenture", "Uber", "Walmart Labs"],
+    "career_progression": [
+      "Associate Data Scientist",
+      "Data Scientist",
+      "Senior Data Scientist",
+      "Principal Data Scientist / Director of Data Science"
+    ],
+    "interview_tips": [
+      "Focus deeply on A/B testing design, p-values, hypothesis framing, and business metric impact.",
+      "Demonstrate structured business thinking: translate vague business problems into quantifiable ML formulations.",
+      "Be confident in complex SQL window functions, joins, and aggregations."
+    ],
+    "interview_questions": [
+      "How do you design an A/B test for a new checkout recommendation feature?",
+      "What metrics would you use to evaluate an imbalanced classification problem?",
+      "Explain the Central Limit Theorem and its significance in statistical inference.",
+      "How do you detect and handle multicollinearity in regression models?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Statistics & Probability, Python Data Stack (NumPy, Pandas, Matplotlib, Seaborn), Advanced SQL.",
+      "Phase 2: Exploratory Data Analysis (EDA), Hypothesis Testing, Feature Selection, Supervised & Unsupervised Learning.",
+      "Phase 3: Big Data processing with PySpark, Experimentation (A/B testing), Dashboarding (Tableau/Power BI).",
+      "Phase 4: Advanced Predictive Modeling, Business Communication, Cloud Data Warehouses (BigQuery/Snowflake)."
+    ]
+  },
+  "Data Analyst": {
+    "title": "Data Analyst",
+    "category": "Data Science & Analytics",
+    "description": "Translates raw corporate data into interactive dashboards, KPI reports, and strategic intelligence to guide daily and long-term executive decisions.",
+    "core_skills": ["SQL", "Excel (Advanced)", "Data Visualization", "Python", "Business Intelligence", "Critical Thinking"],
+    "tools_and_technologies": ["Power BI", "Tableau", "PostgreSQL", "Google BigQuery", "Excel", "DAX", "Pandas", "Looker"],
+    "salary_range": {
+      "entry": "₹4.5 - 8 LPA ($55,000 - $75,000)",
+      "mid": "₹9 - 16 LPA ($80,000 - $110,000)",
+      "senior": "₹17 - 28+ LPA ($115,000 - $150,000+)"
+    },
+    "demand_level": "High",
+    "growth_rate": "20% Yearly",
+    "top_industries": ["Retail & E-Commerce", "Finance & Insurance", "Digital Marketing", "Logistics", "SaaS"],
+    "top_hiring_companies": ["Deloitte", "EY", "KPMG", "PwC", "Amazon", "Target", "American Express", "Swiggy"],
+    "career_progression": [
+      "Junior Data Analyst",
+      "Senior Business/Data Analyst",
+      "Lead Analytics Consultant",
+      "Analytics Manager / VP of Business Intelligence"
+    ],
+    "interview_tips": [
+      "Master complex SQL queries (Window functions like RANK, DENSE_RANK, LEAD, LAG, CTEs).",
+      "Prepare a portfolio of interactive dashboards showcasing clear narrative hierarchy and business impact.",
+      "Understand key business metrics (CAC, LTV, Churn, ROI, Conversion Funnel)."
+    ],
+    "interview_questions": [
+      "Write a SQL query using CTE and Window functions to find the top 3 highest spending customers per region.",
+      "What is the difference between a Star Schema and a Snowflake Schema in data modeling?",
+      "How do you choose between a bar chart, line chart, scatter plot, and treemap?",
+      "How would you investigate a sudden 20% drop in active users over the weekend?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Advanced Excel (VLOOKUP, INDEX/MATCH, Pivot Tables, Power Query), Relational Database Concepts.",
+      "Phase 2: In-depth SQL (joins, subqueries, CTEs, window functions, query optimization).",
+      "Phase 3: BI Tools (Power BI or Tableau) including data modeling, calculated measures, and UX.",
+      "Phase 4: Python for analytics (Pandas, automated reporting) and exploratory statistical analysis."
+    ]
+  },
+  "Software Engineer": {
+    "title": "Software Engineer",
+    "category": "Software Engineering",
+    "description": "Architects, writes, and tests robust, modular software code and backend systems with high performance, scalability, and maintainability.",
+    "core_skills": ["Data Structures", "Algorithms", "Object-Oriented Programming", "System Design", "Databases", "Problem Solving"],
+    "tools_and_technologies": ["Java", "C++", "Python", "Go", "Git", "Linux", "PostgreSQL", "Redis", "Kafka", "JUnit"],
+    "salary_range": {
+      "entry": "₹6 - 15 LPA ($75,000 - $115,000)",
+      "mid": "₹16 - 32 LPA ($120,000 - $175,000)",
+      "senior": "₹35 - 65+ LPA ($180,000 - $260,000+)"
+    },
+    "demand_level": "Very High",
+    "growth_rate": "18% Yearly",
+    "top_industries": ["Enterprise Tech", "FinTech", "Cloud Platforms", "Gaming", "Consumer Internet"],
+    "top_hiring_companies": ["Google", "Microsoft", "Amazon", "Apple", "Oracle", "Cisco", "Salesforce", "Atlassian"],
+    "career_progression": [
+      "Software Development Engineer I (SDE 1)",
+      "SDE II / Senior Software Engineer",
+      "Staff Software Engineer / Lead Architect",
+      "Principal Engineer / VP of Engineering"
+    ],
+    "interview_tips": [
+      "Practice Data Structures & Algorithms on LeetCode (Trees, Graphs, Dynamic Programming, HashMaps).",
+      "Master High-Level and Low-Level System Design (caching, database sharding, microservices, load balancing).",
+      "Know clean code principles (SOLID, DRY, Design Patterns) and debugging techniques."
+    ],
+    "interview_questions": [
+      "How would you design a distributed URL shortening service like TinyURL?",
+      "Explain how a Hash Table handles hash collisions (Chaining vs Open Addressing).",
+      "Explain the differences between optimistic locking and pessimistic locking.",
+      "What are the ACID properties in database transactions and how is isolation implemented?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Master one language (Java/C++/Python/Go), OOP fundamentals, Memory Management, Linux CLI.",
+      "Phase 2: Data Structures & Algorithms (Arrays, Linked Lists, Trees, Graphs, Sorting, DP).",
+      "Phase 3: Database design, REST APIs, Multithreading, Concurrency, Unit Testing & Git.",
+      "Phase 4: Distributed Systems, Microservices, Caching (Redis), Message Queues (Kafka/RabbitMQ), System Design."
+    ]
+  },
+  "Full Stack Developer": {
+    "title": "Full Stack Developer",
+    "category": "Web Development",
+    "description": "Builds end-to-end web applications, designing interactive client-side interfaces and scalable server-side APIs and database architectures.",
+    "core_skills": ["JavaScript", "TypeScript", "HTML5/CSS3", "React.js", "Node.js", "REST APIs", "Database Design"],
+    "tools_and_technologies": ["React", "Next.js", "Node.js", "Express", "MongoDB", "PostgreSQL", "Tailwind CSS", "Docker", "Git"],
+    "salary_range": {
+      "entry": "₹5.5 - 12 LPA ($70,000 - $100,000)",
+      "mid": "₹13 - 25 LPA ($105,000 - $150,000)",
+      "senior": "₹26 - 45+ LPA ($155,000 - $210,000+)"
+    },
+    "demand_level": "Very High",
+    "growth_rate": "22% Yearly",
+    "top_industries": ["SaaS Startups", "E-Commerce", "EdTech", "FinTech", "Media & Entertainment"],
+    "top_hiring_companies": ["Zomato", "Swiggy", "Stripe", "Shopify", "Airbnb", "Netflix", "Razorpay", "HubSpot"],
+    "career_progression": [
+      "Junior Full Stack Developer",
+      "Full Stack Engineer",
+      "Senior Full Stack Engineer / Tech Lead",
+      "Chief Technology Officer (CTO) / Engineering Director"
+    ],
+    "interview_tips": [
+      "Build and showcase 2-3 full-stack applications with authentication, state management, and real databases.",
+      "Understand browser fundamentals: Event Loop, DOM rendering, CORS, WebSockets, and caching.",
+      "Be prepared to code full CRUD endpoints and interactive UI components in live coding rounds."
+    ],
+    "interview_questions": [
+      "Explain the JavaScript Event Loop, microtasks, and macrotasks.",
+      "How does React's Virtual DOM reconciliation and Fiber architecture work?",
+      "How do you implement secure user authentication using JWT and Refresh Tokens?",
+      "Compare SQL (PostgreSQL) vs NoSQL (MongoDB) for an e-commerce catalog."
+    ],
+    "learning_roadmap": [
+      "Phase 1: HTML5 semantic tags, Modern CSS (Flexbox, Grid, Responsive), JavaScript ES6+ fundamentals.",
+      "Phase 2: Frontend Frameworks (React, State Management with Redux/Zustand, Tailwind CSS).",
+      "Phase 3: Backend Development (Node.js/Express or Python/FastAPI), RESTful API design, SQL & NoSQL.",
+      "Phase 4: Full-Stack Frameworks (Next.js), Authentication (OAuth/JWT), Dockerization, Cloud Deployment (Vercel/AWS)."
+    ]
+  },
+  "DevOps & Cloud Engineer": {
+    "title": "DevOps & Cloud Engineer",
+    "category": "Cloud & Infrastructure",
+    "description": "Bridges software development and IT operations through automated CI/CD pipelines, containerization, Infrastructure as Code, and resilient cloud architectures.",
+    "core_skills": ["Linux Administration", "CI/CD Pipelines", "Containerization", "Infrastructure as Code", "Cloud Architecture", "Scripting"],
+    "tools_and_technologies": ["Docker", "Kubernetes", "Terraform", "AWS", "Azure", "GitHub Actions", "Jenkins", "Prometheus", "Grafana", "Ansible"],
+    "salary_range": {
+      "entry": "₹6 - 13 LPA ($75,000 - $110,000)",
+      "mid": "₹14 - 28 LPA ($115,000 - $165,000)",
+      "senior": "₹30 - 55+ LPA ($170,000 - $240,000+)"
+    },
+    "demand_level": "Very High",
+    "growth_rate": "27% Yearly",
+    "top_industries": ["Cloud Services", "Financial Services", "Enterprise Software", "Telecommunications", "Healthcare"],
+    "top_hiring_companies": ["Amazon Web Services", "Microsoft", "Google Cloud", "Red Hat", "HashiCorp", "Cisco", "TCS", "Wipro"],
+    "career_progression": [
+      "Associate Cloud/DevOps Engineer",
+      "DevOps / Site Reliability Engineer (SRE)",
+      "Senior DevOps Architect / SRE Lead",
+      "Head of Infrastructure / VP of Cloud Operations"
+    ],
+    "interview_tips": [
+      "Understand Kubernetes architecture (Control Plane, Worker Nodes, Pods, Services, Ingress, Deployments).",
+      "Write modular Terraform scripts demonstrating state management, modules, and multi-environment setups.",
+      "Understand observability principles: Metrics, Logs, Traces (Prometheus, ELK/OpenTelemetry, Grafana)."
+    ],
+    "interview_questions": [
+      "Explain the pod lifecycle in Kubernetes and how a Rolling Update deployment works.",
+      "How do you manage Terraform remote state file locking and secrets management?",
+      "What is the difference between Blue-Green and Canary deployment strategies?",
+      "How would you troubleshoot high CPU utilization or an OOMKilled container in production?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Linux fundamentals, Bash/Python scripting, Networking (DNS, TCP/IP, SSL/TLS, SSH).",
+      "Phase 2: Version control (Git), Containerization with Docker, CI/CD pipelines (GitHub Actions/Jenkins).",
+      "Phase 3: Public Cloud core services (AWS/GCP/Azure: IAM, VPC, EC2, S3, RDS, CloudWatch).",
+      "Phase 4: Container orchestration (Kubernetes), Infrastructure as Code (Terraform), Monitoring (Prometheus/Grafana)."
+    ]
+  },
+  "Cyber Security Engineer": {
+    "title": "Cyber Security Engineer",
+    "category": "Cybersecurity & Information Security",
+    "description": "Protects digital assets, networks, and applications from vulnerabilities, unauthorized intrusion, ransomware, and state-sponsored cyber attacks.",
+    "core_skills": ["Network Security", "Vulnerability Assessment", "Penetration Testing", "Cryptography", "Incident Response", "SIEM"],
+    "tools_and_technologies": ["Wireshark", "Burp Suite", "Metasploit", "Nmap", "Splunk", "Kali Linux", "Snort", "CrowdStrike", "Python"],
+    "salary_range": {
+      "entry": "₹6 - 14 LPA ($80,000 - $115,000)",
+      "mid": "₹15 - 30 LPA ($120,000 - $170,000)",
+      "senior": "₹32 - 60+ LPA ($175,000 - $250,000+)"
+    },
+    "demand_level": "Extremely High",
+    "growth_rate": "33% Yearly",
+    "top_industries": ["Banking & Defense", "Government & Aerospace", "Healthcare", "E-Commerce", "Critical Infrastructure"],
+    "top_hiring_companies": ["Palo Alto Networks", "CrowdStrike", "Cisco", "Mandiant (Google)", "Fortinet", "Lockheed Martin", "Deloitte"],
+    "career_progression": [
+      "Security Analyst / SOC Analyst (Tier 1/2)",
+      "Cyber Security Engineer / Penetration Tester",
+      "Senior Security Architect / Red Team Lead",
+      "Chief Information Security Officer (CISO)"
+    ],
+    "interview_tips": [
+      "Deeply study OWASP Top 10 vulnerabilities (SQLi, XSS, CSRF, SSRF, Broken Access Control) and remedies.",
+      "Understand OSI Model packet inspection and secure network architecture (Firewalls, DMZ, Zero Trust).",
+      "Obtain or study industry certifications like CompTIA Security+, CEH, or OSCP."
+    ],
+    "interview_questions": [
+      "Explain the difference between Symmetric and Asymmetric encryption and how TLS/SSL handshake operates.",
+      "How does a Cross-Site Scripting (XSS) attack work, and how can applications prevent it?",
+      "What is Zero Trust architecture and how does it challenge traditional perimeter security?",
+      "Explain the steps involved in incident response during a suspected ransomware outbreak."
+    ],
+    "learning_roadmap": [
+      "Phase 1: Computer Networking (OSI model, TCP/IP, DNS, Routing), Linux and Windows system internals.",
+      "Phase 2: Security fundamentals, Cryptography (Hashing, Ciphers, PKI), Web Application Security (OWASP Top 10).",
+      "Phase 3: Ethical Hacking tools (Nmap, Burp Suite, Wireshark, Metasploit), SOC operations & SIEM (Splunk).",
+      "Phase 4: Advanced Threat Hunting, Cloud Security (AWS/Azure IAM & GuardDuty), Penetration Testing methodologies."
+    ]
+  },
+  "Cloud Solutions Architect": {
+    "title": "Cloud Solutions Architect",
+    "category": "Cloud & Infrastructure",
+    "description": "Designs robust, secure, resilient, and cost-effective enterprise cloud architectures aligned with business goals and compliance mandates.",
+    "core_skills": ["Cloud Architecture", "Distributed Systems", "Cloud Security", "Cost Optimization", "High Availability", "Disaster Recovery"],
+    "tools_and_technologies": ["AWS", "Microsoft Azure", "Google Cloud", "Terraform", "Kubernetes", "CloudFormation", "Serverless (Lambda)"],
+    "salary_range": {
+      "entry": "₹10 - 18 LPA ($95,000 - $130,000)",
+      "mid": "₹20 - 36 LPA ($135,000 - $185,000)",
+      "senior": "₹38 - 70+ LPA ($190,000 - $280,000+)"
+    },
+    "demand_level": "High",
+    "growth_rate": "24% Yearly",
+    "top_industries": ["Enterprise Tech", "Financial Services", "Retail", "Healthcare", "Consulting"],
+    "top_hiring_companies": ["Amazon Web Services", "Microsoft", "Google", "IBM", "Cognizant", "Infosys", "Capgemini"],
+    "career_progression": [
+      "Cloud Engineer",
+      "Cloud Solutions Architect",
+      "Senior Principal Architect",
+      "Chief Enterprise Architect"
+    ],
+    "interview_tips": [
+      "Master the AWS/Azure Well-Architected Framework (Operational Excellence, Security, Reliability, Performance, Cost Optimization).",
+      "Demonstrate cloud migration strategies (The 6 R's: Rehost, Replatform, Repurchase, Refactor, Retire, Retain).",
+      "Practice whiteboard architecture scenarios balancing throughput, failover, and budgetary constraints."
+    ],
+    "interview_questions": [
+      "How do you design a multi-region active-active database failover system with sub-second RPO and RTO?",
+      "Explain the trade-offs between Serverless compute and Containerized microservices on Kubernetes.",
+      "How would you reduce an enterprise AWS bill by 35% without degrading performance?",
+      "Design a secure hybrid-cloud network connection connecting on-premises data centers to AWS VPC."
+    ],
+    "learning_roadmap": [
+      "Phase 1: Cloud fundamentals (Compute, Storage, Networking, IAM on AWS/GCP/Azure).",
+      "Phase 2: High availability, load balancing, auto-scaling, relational vs NoSQL cloud databases.",
+      "Phase 3: Microservices, serverless computing, event-driven architectures, Infrastructure as Code.",
+      "Phase 4: Well-Architected Framework, multi-region disaster recovery, enterprise security, FinOps cost optimization."
+    ]
+  },
+  "Product Manager": {
+    "title": "Product Manager",
+    "category": "Product & Strategy",
+    "description": "Drives the product vision, roadmap, and execution at the intersection of business, technology, and user experience, delivering customer value.",
+    "core_skills": ["Product Strategy", "Market Research", "Agile / Scrum", "Data Analytics", "User Empathy", "Stakeholder Management"],
+    "tools_and_technologies": ["Jira", "Figma", "Mixpanel", "Amplitude", "Google Analytics", "Confluence", "Notion", "SQL"],
+    "salary_range": {
+      "entry": "₹8 - 16 LPA ($85,000 - $120,000)",
+      "mid": "₹18 - 35 LPA ($125,000 - $180,000)",
+      "senior": "₹36 - 65+ LPA ($185,000 - $260,000+)"
+    },
+    "demand_level": "High",
+    "growth_rate": "21% Yearly",
+    "top_industries": ["Consumer Tech", "FinTech", "E-Commerce", "HealthTech", "B2B SaaS"],
+    "top_hiring_companies": ["Google", "Meta", "Uber", "Microsoft", "Paytm", "Flipkart", "CRED", "Slack"],
+    "career_progression": [
+      "Associate Product Manager (APM)",
+      "Product Manager (PM)",
+      "Senior Product Manager / Group PM",
+      "VP of Product / Chief Product Officer (CPO)"
+    ],
+    "interview_tips": [
+      "Structure product design answers using CIRCLES framework (Comprehend, Identify, Report, Cut, Explore, List, Evaluate, Summarize).",
+      "Back every argument with measurable metrics (North Star metric, retention cohorts, conversion rates).",
+      "Demonstrate empathy for engineering constraints and UX principles."
+    ],
+    "interview_questions": [
+      "How would you improve Google Maps for senior citizens?",
+      "Pick your favorite mobile app. What feature would you deprecate and why?",
+      "If you notice an e-commerce cart abandonment spike of 15% this morning, what steps do you take?",
+      "How do you prioritize competing feature requests from Sales, Engineering, and Executive Leadership?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Product lifecycle fundamentals, Agile methodologies (Scrum/Kanban), User Story mapping.",
+      "Phase 2: Quantitative analytics (SQL, Product Analytics with Mixpanel/Amplitude, A/B testing).",
+      "Phase 3: User research, Wireframing (Figma), PRD (Product Requirements Document) writing.",
+      "Phase 4: Product Strategy, Go-To-Market (GTM) execution, Pricing strategy, Executive presentation."
+    ]
+  },
+  "Mobile Application Developer": {
+    "title": "Mobile Application Developer",
+    "category": "Mobile Development",
+    "description": "Creates intuitive, high-performance mobile applications for Android and iOS operating systems with smooth animations and native hardware integration.",
+    "core_skills": ["Flutter / Dart", "Kotlin / Swift", "Mobile UI/UX", "State Management", "REST APIs", "App Store Deployment"],
+    "tools_and_technologies": ["Flutter", "React Native", "Android Studio", "Xcode", "Kotlin", "Swift", "Firebase", "Git"],
+    "salary_range": {
+      "entry": "₹5 - 11 LPA ($65,000 - $95,000)",
+      "mid": "₹12 - 24 LPA ($100,000 - $145,000)",
+      "senior": "₹25 - 45+ LPA ($150,000 - $205,000+)"
+    },
+    "demand_level": "High",
+    "growth_rate": "19% Yearly",
+    "top_industries": ["Consumer Apps", "FinTech & Banking", "Ride-Hailing & Travel", "Social Media", "Gaming"],
+    "top_hiring_companies": ["PhonePe", "CRED", "Uber", "Spotify", "Snapchat", "Myntra", "Jio", "MakeMyTrip"],
+    "career_progression": [
+      "Junior Mobile Developer",
+      "Mobile Engineer (iOS / Android / Cross-Platform)",
+      "Senior Mobile Architect",
+      "Head of Mobile Engineering"
+    ],
+    "interview_tips": [
+      "Showcase a published app on Google Play Store or Apple App Store.",
+      "Master state management paradigms (Bloc, Provider, Riverpod, Redux).",
+      "Understand offline-first caching, background services, push notifications, and battery optimization."
+    ],
+    "interview_questions": [
+      "What is the difference between Flutter (Canvas rendering) and React Native (Bridge/JSI)?",
+      "How do you optimize an app for 60/120 FPS scrolling and avoid UI jank?",
+      "Explain the Android Activity/Fragment lifecycle or iOS ViewController lifecycle.",
+      "How does offline data synchronization work with local SQLite/Hive and remote cloud databases?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Programming mastery (Dart for Flutter, or Kotlin/Swift for Native development).",
+      "Phase 2: Mobile UI components, responsive widget layout, user input handling, animations.",
+      "Phase 3: State management, network HTTP calls, local storage (SQLite, SharedPreferences), Firebase auth.",
+      "Phase 4: App profiling, memory leak detection, CI/CD with Fastlane, App Store publishing."
+    ]
+  },
+  "UI/UX Designer": {
+    "title": "UI/UX Designer",
+    "category": "Design & User Experience",
+    "description": "Crafts beautiful, accessible, human-centered digital experiences through extensive user research, wireframing, interactive prototyping, and design systems.",
+    "core_skills": ["User Research", "Wireframing", "Prototyping", "Design Systems", "Usability Testing", "Interaction Design", "Accessibility (a11y)"],
+    "tools_and_technologies": ["Figma", "Adobe XD", "Miro", "Sketch", "InVision", "Design Tokens", "HTML/CSS Basics"],
+    "salary_range": {
+      "entry": "₹4.5 - 9.5 LPA ($60,000 - $85,000)",
+      "mid": "₹10 - 20 LPA ($90,000 - $130,000)",
+      "senior": "₹22 - 40+ LPA ($135,000 - $185,000+)"
+    },
+    "demand_level": "High",
+    "growth_rate": "18% Yearly",
+    "top_industries": ["Tech & SaaS", "E-Commerce", "Digital Agencies", "EdTech", "FinTech"],
+    "top_hiring_companies": ["Figma", "Apple", "Airbnb", "Google", "Canva", "CRED", "Adobe", "Razorpay"],
+    "career_progression": [
+      "Associate UI/UX Designer",
+      "Product Designer / UX Designer",
+      "Senior Product Designer / Design Lead",
+      "Head of Design / VP of User Experience"
+    ],
+    "interview_tips": [
+      "Present a portfolio showcasing end-to-end case studies from problem statement to user feedback.",
+      "Articulate the 'Why' behind every design decision rather than just aesthetics.",
+      "Understand Web Accessibility standards (WCAG 2.1 AA, contrast ratios, keyboard navigation)."
+    ],
+    "interview_questions": [
+      "Walk me through your design process when starting a brand new project from scratch.",
+      "How do you resolve disagreements with engineers regarding feasibility of complex UI animations?",
+      "What is the difference between quantitative and qualitative user research?",
+      "How do you maintain consistency using scalable Design Systems and atomic design?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Design principles (Typography, Color theory, Layout, Visual Hierarchy, Gestalt laws).",
+      "Phase 2: Figma mastery (Auto Layout, Components, Variants, Interactive Prototyping).",
+      "Phase 3: UX Research (User personas, Journey mapping, Usability testing, Information architecture).",
+      "Phase 4: Design Systems, Micro-interactions, Accessibility guidelines, Portfolio creation."
+    ]
+  },
+  "Blockchain Developer": {
+    "title": "Blockchain Developer",
+    "category": "Web3 & Emerging Tech",
+    "description": "Architects decentralized applications (dApps), smart contracts, and cryptographic ledger protocols ensuring verifiable trust and security.",
+    "core_skills": ["Solidity", "Smart Contract Development", "Cryptography", "Decentralized Architecture", "Web3.js / Ethers.js"],
+    "tools_and_technologies": ["Ethereum", "Solidity", "Hardhat", "Truffle", "Ethers.js", "Web3.js", "IPFS", "Polygon", "Rust"],
+    "salary_range": {
+      "entry": "₹7 - 14 LPA ($80,000 - $115,000)",
+      "mid": "₹15 - 32 LPA ($120,000 - $175,000)",
+      "senior": "₹34 - 60+ LPA ($180,000 - $250,000+)"
+    },
+    "demand_level": "Moderate to High",
+    "growth_rate": "23% Yearly",
+    "top_industries": ["DeFi (Decentralized Finance)", "Supply Chain", "Gaming & NFTs", "FinTech", "Identity Verification"],
+    "top_hiring_companies": ["Consensys", "Polygon Labs", "Coinbase", "Chainlink", "Binance", "Ripple", "Uniswap Labs"],
+    "career_progression": [
+      "Junior Web3 Developer",
+      "Smart Contract Engineer",
+      "Senior Blockchain Architect / Protocol Engineer",
+      "Head of Web3 / Chief Cryptographer"
+    ],
+    "interview_tips": [
+      "Demonstrate thorough knowledge of smart contract security vulnerabilities (Reentrancy, Integer Overflow, Front-running).",
+      "Understand EVM (Ethereum Virtual Machine) mechanics, gas optimization, and storage slots.",
+      "Build and deploy audited smart contracts on testnets (Sepolia/Polygon)."
+    ],
+    "interview_questions": [
+      "What is a Reentrancy attack in Solidity and how do you protect against it using Checks-Effects-Interactions?",
+      "Explain the differences between Proof of Work (PoW) and Proof of Stake (PoS) consensus.",
+      "How do you optimize smart contracts to minimize gas costs for end users?",
+      "What are ERC-20, ERC-721, and ERC-1155 standards and their use cases?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Cryptography basics (Public-Private keys, Hashing, Merkle Trees), Blockchain architecture.",
+      "Phase 2: Solidity programming, Smart Contract lifecycle, EVM fundamentals.",
+      "Phase 3: Development frameworks (Hardhat/Foundry), Ethers.js integration with React frontend.",
+      "Phase 4: Smart contract security auditing, DeFi protocols, Layer 2 rollups (Arbitrum, Optimism)."
+    ]
+  },
+  "Embedded Systems & IoT Engineer": {
+    "title": "Embedded Systems & IoT Engineer",
+    "category": "Hardware & Embedded Software",
+    "description": "Develops low-level firmware, device drivers, and connected Internet-of-Things (IoT) systems interfacing software with physical microcontrollers and sensors.",
+    "core_skills": ["Embedded C / C++", "Microcontroller Architecture", "RTOS", "Communication Protocols (SPI, I2C, UART, CAN)", "Hardware Debugging"],
+    "tools_and_technologies": ["ARM Cortex-M", "ESP32", "STM32", "FreeRTOS", "Linux Embedded", "Oscilloscopes", "MQTT", "Zigbee", "BLE"],
+    "salary_range": {
+      "entry": "₹5 - 11 LPA ($65,000 - $95,000)",
+      "mid": "₹12 - 22 LPA ($100,000 - $145,000)",
+      "senior": "₹24 - 45+ LPA ($150,000 - $210,000+)"
+    },
+    "demand_level": "High",
+    "growth_rate": "20% Yearly",
+    "top_industries": ["Automotive (EV)", "Industrial Automation", "Consumer Electronics", "Smart Home", "Aerospace"],
+    "top_hiring_companies": ["Bosch", "Texas Instruments", "Qualcomm", "Intel", "NXP Semiconductors", "Schneider Electric", "Tesla"],
+    "career_progression": [
+      "Associate Firmware Engineer",
+      "Embedded Software Engineer",
+      "Lead IoT Architect",
+      "Director of Embedded Systems"
+    ],
+    "interview_tips": [
+      "Master pointer manipulation, bitwise operations, memory-mapped I/O, and volatile keyword in C.",
+      "Explain real-time operating systems concepts (task scheduling, semaphores, mutexes, priority inversion).",
+      "Be prepared to read hardware schematics and explain protocol timing diagrams."
+    ],
+    "interview_questions": [
+      "What does the 'volatile' keyword signify in C and why is it essential for embedded hardware registers?",
+      "Explain Priority Inversion in RTOS and how Priority Inheritance resolves it.",
+      "Compare I2C vs SPI in terms of speed, bus topology, pin count, and duplex capability.",
+      "How would you design a battery-powered IoT sensor to operate reliably for 5+ years?"
+    ],
+    "learning_roadmap": [
+      "Phase 1: Advanced C programming (pointers, bit manipulation, memory management), digital electronics.",
+      "Phase 2: Microcontroller architecture (ARM Cortex / ESP32), GPIO, Timers, ADC, Interrupt handling.",
+      "Phase 3: Serial protocols (UART, SPI, I2C, CAN), RTOS concepts with FreeRTOS.",
+      "Phase 4: IoT connectivity (Wi-Fi, BLE, MQTT, HTTP), low-power optimization, Embedded Linux."
+    ]
+  }
+}
