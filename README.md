@@ -1,4 +1,4 @@
-# 🤖 AI Career Guidance Assistant (Task AI-SS-005)
+# 🤖 AI Career Guidance Assistant 
 
 [![Python Version](https://img.shields.io/badge/Python-3.14%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Flask-3.1.3-green.svg?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
